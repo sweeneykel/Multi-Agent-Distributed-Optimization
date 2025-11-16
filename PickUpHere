@@ -1,0 +1,6 @@
+Next time;
+
+1. figure out indexing
+2. code up primal update
+3. code up dual update
+4. decide how f_i(x_i) works with x_i E X_i
