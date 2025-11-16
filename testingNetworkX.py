@@ -1,4 +1,5 @@
 import networkx as nx
+import matplotlib.pyplot as plt
 
 from Node import Node
 
@@ -17,12 +18,12 @@ T.add_node(three)
 T.add_edge(one, two)
 T.add_edge(one, three)
 
-# iterate through all neighbors of one
-#for j in T.neighbors(one):
-    #print(type(j.index))
+
+
+
 
 # show the graph
-#nx.draw(G)
+#nx.draw(T)
 #plt.show()
 
 #print(T.number_of_nodes())
@@ -31,29 +32,29 @@ T.add_edge(one, three)
 #for n in list(T.nodes):
  #   print("!!", n.index)
 
-print("Reassign values at x_i_pko to x_i_k")
-for n in list(T.nodes):
-    print('index k was originally: ', n.x_i_k)
-    n.x_i_k = n.x_i_kpo
-    print('index k is now: ', n.x_i_k)
-    print('index k plus 1: ', n.x_i_kpo)
+#print("Reassign values at x_i_pko to x_i_k")
+#for n in list(T.nodes):
+#    print('index k was originally: ', n.x_i_k)
+#    n.x_i_k = n.x_i_kpo
+#    print('index k is now: ', n.x_i_k)
+#    print('index k plus 1: ', n.x_i_kpo)
 
-print("Increment x_i_kpo")
-q = 1
-for n in list(T.nodes):
-    print('index k is: ', n.x_i_k)
-    print('index k plus 1 was originally: ', n.x_i_kpo)
-    n.x_i_kpo += q
-    print('index k is: ', n.x_i_k)
-    print('index k plus 1 is now: ', n.x_i_kpo)
-    q += 1
+#print("Increment x_i_kpo")
+#q = 1
+#for n in list(T.nodes):
+#    print('index k is: ', n.x_i_k)
+#    print('index k plus 1 was originally: ', n.x_i_kpo)
+#    n.x_i_kpo += q
+#    print('index k is: ', n.x_i_k)
+#    print('index k plus 1 is now: ', n.x_i_kpo)
+#    q += 1
 
-print("Reassign values at x_i_pko to x_i_k")
-for n in list(T.nodes):
-    print('index k was originally: ', n.x_i_k)
-    n.x_i_k = n.x_i_kpo
-    print('index k is now: ', n.x_i_k)
-    print('index k plus 1: ', n.x_i_kpo)
+#print("Reassign values at x_i_pko to x_i_k")
+#for n in list(T.nodes):
+#    print('index k was originally: ', n.x_i_k)
+#    n.x_i_k = n.x_i_kpo
+#    print('index k is now: ', n.x_i_k)
+#    print('index k plus 1: ', n.x_i_kpo)
 
 
 
