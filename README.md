@@ -4,8 +4,18 @@ My technical contribution for final project EK505. Larger group project was to c
 
 Goal: Implement c-ADMM into code and simulate using different parameters or situations in a multi-robot system. 
 
-Sources and References
+
+Code based off of work described in:
 
 O. Shorinwa, T. Halsted, J. Yu and M. Schwager, "Distributed Optimization Methods for Multi-Robot Systems: Part 1—A Tutorial [Tutorial]," in IEEE Robotics & Automation Magazine, vol. 31, no. 3, pp. 121-138, Sept. 2024, doi: 10.1109/MRA.2024.3358718.
 
 O. Shorinwa, T. Halsted, J. Yu and M. Schwager, "Distributed Optimization Methods for Multi-Robot Systems: Part 2—A Survey," in IEEE Robotics & Automation Magazine, vol. 31, no. 3, pp. 154-169, Sept. 2024, doi: 10.1109/MRA.2024.3352852.
+
+
+Sources and References:
+
+docs.python.org
+
+networkx.org
+
+docs.scipy.org
